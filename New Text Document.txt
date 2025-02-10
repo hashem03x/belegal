@@ -1,0 +1,15 @@
+Based on the "Be Legal" logo's color scheme, I recommend the following website color palette:
+
+### **Primary Color (Main Brand Color)**
+- **Rust Brown** (#A15C3E) – Taken from the logo to maintain brand consistency.
+
+### **Secondary Colors (Supporting & Accent Colors)**
+- **Beige/Sand** (#F5EDE1) – A soft, neutral background color to enhance readability.
+- **Dark Brown** (#5E3C2C) – A rich, deep brown for headings and emphasis.
+- **Gold/Amber** (#D4A76A) – A luxurious accent color for buttons and highlights.
+
+### **Neutral Colors (Backgrounds & Text)**
+- **White** (#FFFFFF) – Clean and professional for main content areas.
+- **Light Gray** (#EAEAEA) – Subtle contrast for secondary sections.
+
+Would you like a website mockup based on this palette?
