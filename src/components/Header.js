@@ -8,7 +8,7 @@ function Header() {
     <header className="" data-aos="fade-down">
       <nav className="navbar navbar-expand-lg">
         <div className="container">
-          <NavLink className="navbar-brand fw-bold fs-3" style={{color:'var(--primary-color)'}} to="/">
+          <NavLink className="navbar-brand fw-bold fs-3" style={{color:'var(--primary-color)'}} to="/belegal">
             <img src={logo} alt="Logo" className="img-fluid" width={140}/>
           </NavLink>
           <button
