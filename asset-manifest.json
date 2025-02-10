@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/belegal/static/css/main.731bdcdc.css",
-    "main.js": "/belegal/static/js/main.fe5d4f97.js",
+    "main.css": "/belegal/static/css/main.5a12a42b.css",
+    "main.js": "/belegal/static/js/main.e7c0a85d.js",
     "static/media/Sandy_Tech-13_Single-09.jpg": "/belegal/static/media/Sandy_Tech-13_Single-09.7ee2cca2f639e98081b3.jpg",
     "static/media/hero_image.webp": "/belegal/static/media/hero_image.d84837b04b49cb87e016.webp",
     "static/media/logo.png": "/belegal/static/media/logo.f42d8b84f92f9dcf7ede.png",
     "index.html": "/belegal/index.html",
-    "main.731bdcdc.css.map": "/belegal/static/css/main.731bdcdc.css.map",
-    "main.fe5d4f97.js.map": "/belegal/static/js/main.fe5d4f97.js.map"
+    "main.5a12a42b.css.map": "/belegal/static/css/main.5a12a42b.css.map",
+    "main.e7c0a85d.js.map": "/belegal/static/js/main.e7c0a85d.js.map"
   },
   "entrypoints": [
-    "static/css/main.731bdcdc.css",
-    "static/js/main.fe5d4f97.js"
+    "static/css/main.5a12a42b.css",
+    "static/js/main.e7c0a85d.js"
   ]
 }
