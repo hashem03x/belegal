@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/belegal/static/css/main.5a12a42b.css",
-    "main.js": "/belegal/static/js/main.e7c0a85d.js",
-    "static/media/Sandy_Tech-13_Single-09.jpg": "/belegal/static/media/Sandy_Tech-13_Single-09.7ee2cca2f639e98081b3.jpg",
-    "static/media/hero_image.webp": "/belegal/static/media/hero_image.d84837b04b49cb87e016.webp",
-    "static/media/logo.png": "/belegal/static/media/logo.f42d8b84f92f9dcf7ede.png",
-    "index.html": "/belegal/index.html",
-    "main.5a12a42b.css.map": "/belegal/static/css/main.5a12a42b.css.map",
-    "main.e7c0a85d.js.map": "/belegal/static/js/main.e7c0a85d.js.map"
+    "main.css": "./static/css/main.faf882cc.css",
+    "main.js": "./static/js/main.d4a50ad6.js",
+    "static/media/usa.jpg": "./static/media/usa.1605020f7f490621dbbc.jpg",
+    "static/media/eg.jpg": "./static/media/eg.15a5e055407acf326f75.jpg",
+    "static/media/Sandy_Tech-13_Single-09.jpg": "./static/media/Sandy_Tech-13_Single-09.7ee2cca2f639e98081b3.jpg",
+    "static/media/import_export.jpg": "./static/media/import_export.48a31aab504f2b4de664.jpg",
+    "static/media/Manufacturing.jpg": "./static/media/Manufacturing.dfeb05ebba295c4c85c1.jpg",
+    "static/media/freelancer.jpg": "./static/media/freelancer.8f7bc738e19ed9bf338b.jpg",
+    "static/media/contractor.jpg": "./static/media/contractor.cb28da2184e25b3c8f39.jpg",
+    "static/media/it.jpg": "./static/media/it.2e68dc46a4cf2f7fb9e4.jpg",
+    "static/media/hero_image.webp": "./static/media/hero_image.d84837b04b49cb87e016.webp",
+    "static/media/logo.png": "./static/media/logo.f42d8b84f92f9dcf7ede.png",
+    "index.html": "./index.html",
+    "main.faf882cc.css.map": "./static/css/main.faf882cc.css.map",
+    "main.d4a50ad6.js.map": "./static/js/main.d4a50ad6.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a12a42b.css",
-    "static/js/main.e7c0a85d.js"
+    "static/css/main.faf882cc.css",
+    "static/js/main.d4a50ad6.js"
   ]
 }
