@@ -1,0 +1,112 @@
+{
+  "header": {
+    "home": "Home",
+    "services": "Services",
+    "aboutus": "About Us",
+    "contactus": "Contact Us",
+    "packages": "Packages"
+  },
+  "hero": {
+    "title": "Empowering Your Legal and Business Needs",
+    "subtitle": "BeLegal offers tailored legal and financial solutions, helping businesses thrive with expert guidance in incorporation, agreements, compliance, and more.",
+    "getStarted": "Get Started",
+    "requestService": "Request a Service",
+    "freelancerPack": "Freelancer",
+    "IT&SWPack": "IT And Software",
+    "Imp&ExpPack": "Import And Export",
+    "ContractorPack": "Contractor",
+    "ManufacturingPack": "Manufacturing"
+  },
+  "overview": {
+    "title": "Who We Are?",
+    "description": "Be Legal is a pioneering legal and accounting solutions company that integrates technology to streamline business services. Unlike traditional firms, we combine legal expertise with financial insights to provide seamless, AI-powered solutions for startups, SMEs, and investors. Our mission is to simplify compliance, enhance efficiency, and empower businesses to focus on growth while we handle the complexities of law and finance.",
+    "learnMore": "Learn more about us"
+  },
+
+  "features": {
+    "title": "Our Services",
+    "subtitle": "We offer a wide range of services to help you with your legal and business needs",
+    "kickstart": {
+      "title": "Kick Start Your Business",
+      "text": "Lay the foundation for your business with our comprehensive startup package. From company incorporation to essential legal documentation, we provide everything you need to launch confidently and seamlessly."
+    },
+    "coverNeeds": {
+      "title": "Cover Your Business Needs",
+      "text": "Ensure your business runs smoothly with tailored solutions for legal compliance, trademark registration, and employment structuring. Our services are designed to meet your ongoing operational requirements."
+    },
+    "corpCounsel": {
+      "title": "Corporate Counsel",
+      "text": "Access full-spectrum legal and financial support with our Corporate Counsel package. Enjoy unlimited EGMs & OGMs, shareholder agreements, tax filing, audits, and much more, ensuring your business stays ahead."
+    },
+    "viewAll": "View All Services"
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "ahmed": {
+      "name": "Ahmed Khaled",
+      "role": "Startup Founder",
+      "text": "Be Legal simplified our tax filing and corporate compliance. Their AI-driven platform is a game changer!"
+    },
+    "sarah": {
+      "name": "Sarah Ali",
+      "role": "SME Owner",
+      "text": "Professional, efficient, and affordable legal services. I highly recommend Be Legal!"
+    },
+    "mohamed": {
+      "name": "Mohamed Youssef",
+      "role": "Investor",
+      "text": "Their integrated legal and accounting solutions saved us time and effort. Exceptional service!"
+    }
+  },
+  "contact": {
+    "title": "Feel Free to Reach Out to Us",
+    "email": "Email Address",
+    "message": "Message",
+    "placeholder": "Enter your message",
+    "send": "Send"
+  },
+  "footer": {
+    "quick_links": "Quick Links",
+    "services": "Services",
+    "about_us": "About Us",
+    "contact_us": "Contact Us",
+    "social_media": "Follow Us"
+  },
+  "packages": {
+    "freelancerDescription": "Best for freelancers looking to grow their business.",
+    "itSoftwareDescription": "Designed for software companies and IT professionals.",
+    "importExportDescription": "Ideal for businesses engaged in international trade.",
+    "contractorDescription": "For contractors in construction and real estate.",
+    "manufacturingDescription": "For factories and large-scale manufacturing businesses.",
+    "title": "Our Packages",
+    "selectPackage": "Select a package to view details.",
+    "noSelection": "Please select a package from the homepage.",
+    "taxFileOpening": "Tax File Opening",
+    "freelanceAgreement": "Freelance Agreement Draft",
+    "eInvoice": "E-Invoice",
+    "itLicense": "IT License",
+    "partTimeForm": "Part-Time Form No. 2",
+    "saasAgreement": "SAAS Agreement Draft",
+    "privacyPolicy": "Privacy Policy/Terms & Conditions",
+    "msmRegistration": "MSMEDA Registration",
+    "tradeMarkRegistration": "Trademark Registration",
+    "freeIncorporation": "Free LLC or OPC Incorporation",
+    "importCard": "Import Card",
+    "exportCard": "Export Card",
+    "customsDealersRegister": "Customs Dealers Registration",
+    "egmForm": "EGM Form No. 2",
+    "ogmForms": "OGM No. 3/BOD",
+    "employmentStructure": "Employment Structure",
+    "vatAndMonthlyReturn": "VAT and Monthly Return",
+    "taxReturnAndBudget": "Tax Return + Annual Budget",
+    "annualBudget": "Annual Budget",
+    "constructionAgreementDrafts": "Construction Agreement Drafts",
+    "salariesForm": "Salaries Form No. 4",
+    "deductionCollectionForm": "Deduction and Collection Form No. 41",
+    "efcbcRegistration": "EFCBC Registration",
+    "insuranceFile": "Insurance File + Monthly Reconciliation",
+    "b2bAgreementDrafts": "B2B Agreement Drafts",
+    "operatingPermit": "Operating Permit",
+    "industrialRegister": "Industrial Register"
+  }
+}

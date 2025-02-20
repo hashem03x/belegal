@@ -5,38 +5,42 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 function Features() {
+  const { t } = useTranslation();
+
+  const featuresData = [
+    {
+      icon: faRocket,
+      title: t("features.kickstart.title"),
+      text: t("features.kickstart.text"),
+    },
+    {
+      icon: faCogs,
+      title: t("features.coverNeeds.title"),
+      text: t("features.coverNeeds.text"),
+    },
+    {
+      icon: faBalanceScale,
+      title: t("features.corpCounsel.title"),
+      text: t("features.corpCounsel.text"),
+    },
+  ];
+
   return (
     <section data-aos="fade-left" className="section-padding">
       <div className="container mt-5 text-center">
         <div className="title mb-5 text-center">
           <div className="section-title">
-            <h2 >Our Services</h2>
+            <h2>{t("features.title")}</h2>
             <p className="mt-3 fs-5" style={{ opacity: "0.7" }}>
-              We offer a wide range of services to help you with your legal and
-              business needs
+              {t("features.subtitle")}
             </p>
           </div>
         </div>
         <div className="row cards mt-5 text-center">
-          {[
-            {
-              icon: faRocket,
-              title: "Kick start UR Business",
-              text: "Lay the foundation for your business with our comprehensive startup package. From company incorporation to essential legal documentation, we provide everything you need to launch confidently and seamlessly.",
-            },
-            {
-              icon: faCogs,
-              title: "Cover UR business Need",
-              text: "Ensure your business runs smoothly with tailored solutions for legal compliance, trademark registration, and employment structuring. Our services are designed to meet your ongoing operational requirements.",
-            },
-            {
-              icon: faBalanceScale,
-              title: "Corp Counsel",
-              text: "Access full-spectrum legal and financial support with our Corp Counsel package. Enjoy unlimited EGMs & OGMs, shareholder agreements, tax filing, audits, and much more, ensuring your business stays ahead.",
-            },
-          ].map((feature, index) => (
+          {featuresData.map((feature, index) => (
             <div className="col-md-6 col-lg-4 col-12 mb-5" key={index}>
               <div className="feature-card">
                 <div className="icon-wrapper mb-3">
@@ -59,7 +63,9 @@ function Features() {
             </div>
           ))}
         </div>
-          <button className="text-center btn dark-primary-button m-auto mt-5" style={{width:"20%"}}>View all services</button>
+        <button className="text-center btn dark-primary-button m-auto mt-5" style={{ width: "20%" }}>
+          {t("features.viewAll")}
+        </button>
       </div>
     </section>
   );

@@ -1,44 +1,45 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import { useTranslation } from "react-i18next";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-const testimonials = [
-  {
-    name: "Ahmed Khaled",
-    role: "Startup Founder",
-    text: "Be Legal simplified our tax filing and corporate compliance. Their AI-driven platform is a game changer!",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-  },
-  {
-    name: "Sarah Ali",
-    role: "SME Owner",
-    text: "Professional, efficient, and affordable legal services. I highly recommend Be Legal!",
-    image: "https://randomuser.me/api/portraits/women/2.jpg",
-  },
-  {
-    name: "Mohamed Youssef",
-    role: "Investor",
-    text: "Their integrated legal and accounting solutions saved us time and effort. Exceptional service!",
-    image: "https://randomuser.me/api/portraits/men/3.jpg",
-  },
-];
-
 const Testimonials = () => {
+  const { t } = useTranslation();
+
+  const testimonials = [
+    {
+      name: t("testimonials.ahmed.name"),
+      role: t("testimonials.ahmed.role"),
+      text: t("testimonials.ahmed.text"),
+      image: "https://randomuser.me/api/portraits/men/1.jpg",
+    },
+    {
+      name: t("testimonials.sarah.name"),
+      role: t("testimonials.sarah.role"),
+      text: t("testimonials.sarah.text"),
+      image: "https://randomuser.me/api/portraits/women/2.jpg",
+    },
+    {
+      name: t("testimonials.mohamed.name"),
+      role: t("testimonials.mohamed.role"),
+      text: t("testimonials.mohamed.text"),
+      image: "https://randomuser.me/api/portraits/men/3.jpg",
+    },
+  ];
+
   return (
     <section data-aos="fade-up" className="section-padding layout-bg-theme">
-      <h2 className="text-white text-center section-title">What Our Clients Say</h2>
+      <h2 className="text-white text-center section-title">{t("testimonials.title")}</h2>
       <Swiper
-        modules={[Navigation, Pagination]}
+        modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={20}
         slidesPerView={1}
-        // navigation   
         pagination={{ clickable: true }}
-        autoplay={false}
-        // autoplay={{ delay: 3000 }}
-        // loop={true} 
+        autoplay={{ delay: 3000 }}
+        loop={true}
         grabCursor={true}
         centeredSlides={true}
       >
